@@ -1,0 +1,82 @@
+/* header */
+
+.header {
+    background-color: lavender;
+}
+
+.h-pic {
+    margin-bottom: 0px;
+}
+
+.h-pic img {
+    width: 180px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.menu {
+    text-align: end;
+    margin-bottom: 0px;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 21px 30px;
+    transition: .5s;
+    position: relative;
+    margin-right: -4px;
+}
+
+.menu li::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+
+}
+
+.menu li:hover::after{
+    left: 0%;
+    width: 100%;
+}
+
+.menu li:hover{
+    background-color: rgb(152, 152, 152);
+}
+
+.menu li:hover>a{
+    color: #fff;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+/* card */
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-1 {
+    text-align: -webkit-center;
+}
+
+.card-2 {
+    text-align: -webkit-center;
+}
+
+.card-3 {
+    text-align: -webkit-center;
+}
